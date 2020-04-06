@@ -1,0 +1,67 @@
+/******************************************
+    File Name: colors.css
+/****************************************** */
+
+.customwidget li i,
+.navbar-nav span {
+    color: #C8B8DB !important;
+}
+
+.lead strong,
+.icon-wrapper:hover a,
+a:hover,
+a:focus {
+    color: #54123b
+}
+
+
+/**************************************
+GRADIENTS 
+**************************************/
+
+.grd1-trans {
+    background: rgb(200,184,219);
+    background: -moz-linear-gradient(top, rgb(200,184,219, 0.6) 0%, rgba(84, 18, 59, 0.6) 100%);
+    background: -webkit-linear-gradient(top, rgb(200,184,219, 0.6) 0%, rgba(84, 18, 59, 0.6) 100%);
+    background: linear-gradient(to bottom, rgb(200,184,219, 0.6) 0%, rgba(84, 18, 59, 0.6) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#C8B8DB', endColorstr='#54123b', GradientType=0);
+}
+
+.icon_wrap:hover,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover,
+.icon-wrapper:hover i,
+.grd1 {
+    color: #ffffff;
+    background: #C8B8DB;
+    background: -moz-linear-gradient(left, #C8B8DB 0%, #54123b 100%);
+    background: -webkit-linear-gradient(left, #C8B8DB 0%, #54123b 100%);
+    background: linear-gradient(to right, #C8B8DB 0%, #54123b 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#C8B8DB', endColorstr='#54123b', GradientType=1);
+}
+
+.icon_wrap,
+.dmtop:hover,
+.cac:hover,
+.features-right li:hover i,
+.features-left li:hover i,
+.nav-pills > li:hover > a,
+.nav-pills > li:focus > a,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover,
+.divider-bar,
+.owl-next:hover i,
+.owl-prev:hover i,
+.icon-wrapper:hover i:hover,
+.grd1:hover,
+.grd1:focus {
+    background-position: 100px;
+    color: #ffffff;
+    background: #54123b;
+    background: -moz-linear-gradient(left, #54123b 0%, #C8B8DB 100%);
+    background: -webkit-linear-gradient(left, #54123b 0%, #C8B8DB 100%);
+    background: linear-gradient(to right, #54123b 0%, #C8B8DB 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#54123b', endColorstr='#C8B8DB', GradientType=1);
+}

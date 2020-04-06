@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "xeex-corona-app"
+    }
+  },
+  "defaultProject": "xeex-corona-app",
+  "cli": {
+    "analytics": "129395c8-6830-40e3-9e56-12fa4b753623"
+  }
 }

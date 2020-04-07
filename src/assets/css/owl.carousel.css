@@ -165,8 +165,8 @@
   position: absolute;
   width: 100%;
 }
-.owl-next i,
-.owl-prev i {
+.owl-next fa-icon,
+.owl-prev fa-icon {
   background-color: #111;
   width: 60px;
   height: 60px;
@@ -181,7 +181,7 @@
     border-radius: 100px;    
 }
 
-.owl-next i {
+.owl-next fa-icon {
   right:-10%;
   left: auto;
 }

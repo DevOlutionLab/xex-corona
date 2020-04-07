@@ -107,7 +107,7 @@
         float: none;
         margin: 0 auto;
     }
-    .apple-button i {
+    .apple-button fa-icon {
         font-size: 32px;
         margin: 0px 20px 0 0;
         vertical-align: middle;
@@ -135,11 +135,11 @@
     .message-box {
         margin-bottom: 30px;
     }
-    .owl-prev i {
+    .owl-prev fa-icon {
         left: 0;
         border-radius: 0;
     }
-    .owl-next i {
+    .owl-next fa-icon {
         right: 0;
         border-radius: 0;
     }
@@ -323,7 +323,7 @@
     .service-widget {
         margin: 15px 0;
     }
-    .features-left i {
+    .features-left fa-icon {
         float: left;
         margin-right: 20px !important;
     }
@@ -352,7 +352,7 @@
         text-align: center;
         width: 40% !important;
     }
-    body.app_version .btn-light i {
+    body.app_version .btn-light fa-icon {
         display: none !important;
     }
     .copyrights {

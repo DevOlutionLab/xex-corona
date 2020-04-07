@@ -2,13 +2,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { TestComponent } from './test/test.component';
+import { FaqComponent } from './faq/faq.component';
+import { AlertComponent } from './alert/alert.component';
+import { RecommendationComponent } from './recommendation/recommendation.component';
+import { SensibilisationComponent } from './sensibilisation/sensibilisation.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestComponent,
+    FaqComponent,
+    AlertComponent,
+    RecommendationComponent,
+    SensibilisationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

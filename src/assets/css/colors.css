@@ -2,7 +2,7 @@
     File Name: colors.css
 /****************************************** */
 
-.customwidget li i,
+.customwidget li fa-icon,
 .navbar-nav span {
     color: #C8B8DB !important;
 }
@@ -31,7 +31,7 @@ GRADIENTS
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover,
-.icon-wrapper:hover i,
+.icon-wrapper:hover fa-icon,
 .grd1 {
     color: #ffffff;
     background: #C8B8DB;
@@ -44,17 +44,17 @@ GRADIENTS
 .icon_wrap,
 .dmtop:hover,
 .cac:hover,
-.features-right li:hover i,
-.features-left li:hover i,
+.features-right li:hover fa-icon,
+.features-left li:hover fa-icon,
 .nav-pills > li:hover > a,
 .nav-pills > li:focus > a,
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover,
 .divider-bar,
-.owl-next:hover i,
-.owl-prev:hover i,
-.icon-wrapper:hover i:hover,
+.owl-next:hover fa-icon,
+.owl-prev:hover fa-icon,
+.icon-wrapper:hover fa-icon:hover,
 .grd1:hover,
 .grd1:focus {
     background-position: 100px;

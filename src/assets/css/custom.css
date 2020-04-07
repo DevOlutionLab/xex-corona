@@ -169,7 +169,7 @@ header {
     color: #222;
     padding: 0;
 }
-#custom-search-input button i {
+#custom-search-input button fa-icon {
     font-size: 18px;
     color: #333;
 }
@@ -272,7 +272,7 @@ header {
     display: flex;
     margin-bottom: 20px;
 }
-.info-inner span.icontop i.fa-clock-o {
+.info-inner span.icontop fa-icon.fa-clock-o {
     font-size: 25px;
 }
 .info-inner:hover span.icontop,.info-inner:focus span.icontop {
@@ -827,17 +827,17 @@ body.clinic_version .footer .widget-title h3 {
     margin: 0;
     color: #fff;
 }
-.social-links li a i {
+.social-links li a fa-icon {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.social-links li a fa-icon {
     color: #fff;
     font-size: 24px;
     margin-right: 20px;
 }
-.social-links li a i {
-    color: #fff;
-    font-size: 24px;
-    margin-right: 20px;
-}
-.footer-info i {
+.footer-info fa-icon {
     position: absolute;
     left: 0;
     font-size: 25px;
@@ -957,7 +957,7 @@ body.clinic_version .footer .widget-title h3 {
     padding-left: 30px;
     line-height: 32px;
 }
-.tab-content ul li i {
+.tab-content ul li fa-icon {
     position: absolute;
     left: 0;
     top: 7px;

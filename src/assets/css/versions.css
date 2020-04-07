@@ -21,7 +21,7 @@ body.clinic_version {
 
 body.clinic_version .footer-links li:hover a,
 body.clinic_version .widget-title small,
-body.clinic_version .customwidget li i,
+body.clinic_version .customwidget li fa-icon,
 body.clinic_version .navbar-nav span {
     color: #54123b !important;
 }
@@ -46,7 +46,7 @@ body.clinic_version .icon_wrap:hover,
 body.clinic_version .nav-pills > li.active > a,
 body.clinic_version .nav-pills > li.active > a:focus,
 body.clinic_version .nav-pills > li.active > a:hover,
-body.clinic_version .icon-wrapper:hover i,
+body.clinic_version .icon-wrapper:hover fa-icon,
 body.clinic_version .grd1 {
     color: #ffffff;
     background: #70587C;
@@ -60,17 +60,17 @@ body.clinic_version .grd1 {
 body.clinic_version .dev-list .widget h3,
 body.clinic_version .icon_wrap,
 body.clinic_version .dmtop:hover,
-body.clinic_version .features-right li:hover i,
-body.clinic_version .features-left li:hover i,
+body.clinic_version .features-right li:hover fa-icon,
+body.clinic_version .features-left li:hover fa-icon,
 body.clinic_version .nav-pills > li:hover > a,
 body.clinic_version .nav-pills > li:focus > a,
 body.clinic_version .nav-pills > li.active > a,
 body.clinic_version .nav-pills > li.active > a:focus,
 body.clinic_version .nav-pills > li.active > a:hover,
 body.clinic_version .divider-bar,
-body.clinic_version .owl-next:hover i,
-body.clinic_version .owl-prev:hover i,
-body.clinic_version .icon-wrapper:hover i:hover,
+body.clinic_version .owl-next:hover fa-icon,
+body.clinic_version .owl-prev:hover fa-icon,
+body.clinic_version .icon-wrapper:hover fa-icon:hover,
 body.clinic_version .grd1:hover,
 body.clinic_version .grd1:focus {
     background-position: 100px;
@@ -320,7 +320,7 @@ body.clinic_version .testimonial h3 {
     padding: 0 0 10px;
 }
 
-body.clinic_version .desc h3 i {
+body.clinic_version .desc h3 fa-icon {
     color: rgba(0, 0, 0, 0.1);
     font-size: 30px;
 }
@@ -337,6 +337,6 @@ body.clinic_version .footer-links li {
     border-bottom: 1px dashed rgba(0, 0, 0, 0.1)
 }
 
-body.clinic_version .footer-links i {
+body.clinic_version .footer-links fa-icon {
     border-right: 1px dashed rgba(0, 0, 0, 0.1)
 }

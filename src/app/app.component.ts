@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';

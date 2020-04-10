@@ -10,7 +10,6 @@ import { SensibilisationComponent } from './sensibilisation/sensibilisation.comp
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-    { path: '', component: AppComponent },
     { path: 'ftaw', component: FontAwesomeModule },
     { path: 'test', component: TestComponent },
     { path: 'faq', component: FaqComponent },
@@ -19,8 +18,7 @@ const routes: Routes = [
     { path: 'ssb', component: SensibilisationComponent },
     { path: 'home', component: HomeComponent },
 
-    // otherwise redirect to home
-    { path: '**', redirectTo: '' }
+    { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 
 export const appRoutingModule = RouterModule.forRoot(routes);

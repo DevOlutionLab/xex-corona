@@ -10,6 +10,8 @@ import { AlertComponent } from './alert/alert.component';
 import { RecommendationComponent } from './recommendation/recommendation.component';
 import { SensibilisationComponent } from './sensibilisation/sensibilisation.component';
 import { HomeComponent } from './home/home.component';
+import { TestposComponent } from './testpos/testpos.component';
+import { TestnegComponent } from './testneg/testneg.component';
 
 @NgModule({
   imports: [
@@ -25,7 +27,9 @@ import { HomeComponent } from './home/home.component';
     AlertComponent,
     RecommendationComponent,
     SensibilisationComponent,
-    HomeComponent
+    HomeComponent,
+    TestposComponent,
+    TestnegComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

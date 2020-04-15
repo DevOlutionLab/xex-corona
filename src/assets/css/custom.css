@@ -359,6 +359,11 @@ body.clinic_version .first-section h2 {
 	float:right;
 }
 
+h2.nbr {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
 
 .service-time.middle::before {
 

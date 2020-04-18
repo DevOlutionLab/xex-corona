@@ -6,9 +6,6 @@ import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { TestComponent } from './test/test.component';
 import { FaqComponent } from './faq/faq.component';
-import { AlertComponent } from './alert/alert.component';
-import { RecommendationComponent } from './recommendation/recommendation.component';
-import { SensibilisationComponent } from './sensibilisation/sensibilisation.component';
 import { HomeComponent } from './home/home.component';
 import { TestposComponent } from './testpos/testpos.component';
 import { TestnegComponent } from './testneg/testneg.component';
@@ -24,9 +21,6 @@ import { TestnegComponent } from './testneg/testneg.component';
     AppComponent,
     TestComponent,
     FaqComponent,
-    AlertComponent,
-    RecommendationComponent,
-    SensibilisationComponent,
     HomeComponent,
     TestposComponent,
     TestnegComponent

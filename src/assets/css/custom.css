@@ -1,8 +1,3 @@
-/******************************************
-    File Name: custom.css
-/****************************************** */
-
-/** ADD YOUR AWESOME CODES HERE **/
 ::-webkit-input-placeholder { /* Chrome */
   color: #333;opacity:1;
 }
@@ -21,14 +16,11 @@
 :-ms-textarea-placeholder { /* IE 10+ */
   color: #333;opacity:1;
 }
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700');
-* {font-family: 'Poppins', sans-serif;}
-h1,h2,h3,h4,h5,h6 {font-family: 'Poppins', sans-serif;}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+* {font-family: 'Source Sans Pro', sans-serif;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Source Sans Pro', sans-serif;}
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     font-weight: 300;
 }
@@ -957,7 +949,7 @@ body.clinic_version .footer .widget-title h3 {
     width: 100%;
     font-size: 16px;
     position: relative;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     padding-left: 30px;
     line-height: 32px;
@@ -1073,7 +1065,7 @@ body.clinic_version .footer .widget-title h3 {
     margin-bottom: 25px;
 }
 .iconcont a {
-    font-family: 'Arvo', serif;
+    font-family: 'Source Sans Pro', serif;
 }
 .services-paert {
     float: left;

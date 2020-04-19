@@ -9,6 +9,7 @@ import { FaqComponent } from './faq/faq.component';
 import { HomeComponent } from './home/home.component';
 import { TestposComponent } from './testpos/testpos.component';
 import { TestnegComponent } from './testneg/testneg.component';
+import { MembreComponent } from './membre/membre.component';
 
 @NgModule({
   imports: [
@@ -23,7 +24,8 @@ import { TestnegComponent } from './testneg/testneg.component';
     FaqComponent,
     HomeComponent,
     TestposComponent,
-    TestnegComponent
+    TestnegComponent,
+    MembreComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

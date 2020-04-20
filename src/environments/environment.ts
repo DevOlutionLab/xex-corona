@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  // A remplacer par l'address réele de l'api
+  apiUrl: 'http://127.0.0.1:8000/api',
+  baseUrl: 'http://127.0.0.1:8000'
 };
 
 /*

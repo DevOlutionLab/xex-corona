@@ -13,7 +13,7 @@
       </div>
    </div>
 </div>
-   
+
 <div id="time-table" class="time-table-section">
    <div class="container">
       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -29,7 +29,7 @@
       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
          <div class="row">
             <div class="service-time middle" style="background:#742455;">
-               <span class="info-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></span> 
+               <span class="info-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
                   <h3>Numéros Utiles</h3>
                   <div class="time-table-section">
                      <ul>
@@ -67,7 +67,7 @@
           <div class="service-widget">
              <h3>Infectés</h3>
              <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2 class="nbr">00</h2>
+                <h2 class="nbr">{{ lastCas.totalCas }}</h2>
              </div>
           </div>
        </div>
@@ -75,7 +75,7 @@
           <div class="service-widget">
              <h3>Guéris</h3>
              <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2 class="nbr">00</h2>
+                <h2 class="nbr">{{ lastCas.totalGueris }}</h2>
              </div>
           </div>
        </div>
@@ -83,7 +83,7 @@
           <div class="service-widget">
              <h3>Sous traitement</h3>
              <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2 class="nbr">00</h2>
+                <h2 class="nbr">{{ lastCas.totalSousTraitement }}</h2>
              </div>
           </div>
        </div>
@@ -91,7 +91,7 @@
              <div class="service-widget">
                  <h3>Décès</h3>
                  <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                     <h2 class="nbr">00</h2>
+                     <h2 class="nbr">{{ lastCas.totalDeces }}</h2>
                  </div>
              </div>
          </div>
@@ -113,60 +113,24 @@
                      <th class="danger">Cas communautaire</th>
                  </tr>
                  </thead>
-                 <tbody>
-                 <tr>
-                     <td>Jour</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                 </tr>      
-                 <tr>
-                     <td>Jour</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
+                 <tbody *ngIf="cas">
+                 <tr *ngFor="let casItem of cas">
+                    <td> {{ casItem.date | date }} </td>
+                    <td> {{ casItem.nouveauCas }} </td>
+                    <td> {{ casItem.nouveauxGueris }} </td>
+                    <td> {{ casItem.nouveauDeces }} </td>
+                    <td> {{ casItem.nouveauxcontacts }} </td>
+                    <td> {{ casItem.nouveauximportes }} </td>
+                    <td> {{ casItem.nouveaucommunautaire }} </td>
                  </tr>
-                 <tr>
-                     <td>Jour</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                 </tr>
-                 <tr>
-                     <td>Jour</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                 </tr>
-                 <tr>
-                     <td>Jour</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                 </tr>
-                 <tr class="active" style="font-weight: bold;">
-                     <td>TOTAL</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
-                     <td>00</td>
+                 <tr class="active" style="font-weight: bold;" *ngIf="lastCas">
+                    <td>TOTAL</td>
+                    <td> {{ lastCas.totalCas }} </td>
+                    <td> {{ lastCas.totalGueris }} </td>
+                    <td> {{ lastCas.totalDeces }} </td>
+                    <td> {{ lastCas.totalcontacts }} </td>
+                    <td> {{ lastCas.totalimportes }} </td>
+                    <td> {{ lastCas.totalcommunautaire }} </td>
                  </tr>
                  </tbody>
             </table>

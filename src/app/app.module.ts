@@ -10,13 +10,15 @@ import { HomeComponent } from './home/home.component';
 import { TestposComponent } from './testpos/testpos.component';
 import { TestnegComponent } from './testneg/testneg.component';
 import { MembreComponent } from './membre/membre.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   imports: [
     BrowserModule,
     appRoutingModule,
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   declarations: [
     AppComponent,

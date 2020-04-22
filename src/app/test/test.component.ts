@@ -44,12 +44,13 @@ export class TestComponent implements OnInit {
     this.testService.sendTestData(this.testForm.value)
       .subscribe(
         res => {
+          // contient resultat du test, à afficher dans la vue
         this.response = res.message;
-        console.log(this.response);
+       // console.log(this.response);
         },
         err => {
           this.error = err;
-          console.log(this.error);
+        //  console.log(this.error);
         }
       );
   }

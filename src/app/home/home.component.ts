@@ -29,11 +29,11 @@ export class HomeComponent implements OnInit {
 
         // Pour avoir le total à partir de la derniere entrée
         this.lastCas = this.cas.slice(-1)[0];
-        console.log(this.lastCas);
+      //  console.log(this.lastCas);
       },
       (err) => {
         this.error = err;
-        console.log(this.error);
+       // console.log(this.error);
       }
     )
 

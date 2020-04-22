@@ -11,6 +11,7 @@ import { TestposComponent } from './testpos/testpos.component';
 import { TestnegComponent } from './testneg/testneg.component';
 import { MembreComponent } from './membre/membre.component';
 import { HttpClientModule } from '@angular/common/http'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
 @NgModule({
   imports: [
@@ -18,7 +19,10 @@ import { HttpClientModule } from '@angular/common/http'
     appRoutingModule,
     BrowserModule,
     FontAwesomeModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
+
   ],
   declarations: [
     AppComponent,

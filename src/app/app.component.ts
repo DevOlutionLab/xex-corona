@@ -8,7 +8,7 @@ import { faMap } from '@fortawesome/free-solid-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
-
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -24,4 +24,5 @@ export class AppComponent {
   faPaperPlane = faPaperPlane;
   faPhone = faPhone;
   faQuoteLeft = faQuoteLeft;
+  faBars = faBars;
 }

@@ -66,24 +66,24 @@
        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="service-widget">
              <h3>Infectés</h3>
-             <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2 class="nbr">{{ lastCas.totalCas }}</h2>
+             <div *ngFor="let stat of stats" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <h2 class="nbr">{{ stat.infected }}</h2>
              </div>
           </div>
        </div>
        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="service-widget">
              <h3>Guéris</h3>
-             <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2 class="nbr">{{ lastCas.totalGueris }}</h2>
+             <div *ngFor="let stat of stats" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <h2 class="nbr">{{ stat.healed }}</h2>
              </div>
           </div>
        </div>
        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="service-widget">
              <h3>Sous traitement</h3>
-             <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2 class="nbr">{{ lastCas.totalSousTraitement }}</h2>
+             <div *ngFor="let stat of stats" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <h2 class="nbr">{{ stat.underTreatment }}</h2>
              </div>
           </div>
        </div>
@@ -91,7 +91,7 @@
              <div class="service-widget">
                  <h3>Décès</h3>
                  <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                     <h2 class="nbr">{{ lastCas.totalDeces }}</h2>
+                     <h2 class="nbr"></h2>
                  </div>
              </div>
          </div>
@@ -106,6 +106,7 @@
                  <tr>
                      <th class="primary">Date</th>
                      <th class="warning">Nouveaux cas</th>
+                     <th class="info">Sous-traitment</th>
                      <th class="success">Guéris</th>
                      <th class="danger">Décès</th>
                      <th class="warning">Cas contact</th>
@@ -113,24 +114,25 @@
                      <th class="danger">Cas communautaire</th>
                  </tr>
                  </thead>
-                 <tbody *ngIf="cas">
-                 <tr *ngFor="let casItem of cas">
-                    <td> {{ casItem.date | date }} </td>
-                    <td> {{ casItem.nouveauCas }} </td>
-                    <td> {{ casItem.nouveauxGueris }} </td>
-                    <td> {{ casItem.nouveauDeces }} </td>
-                    <td> {{ casItem.nouveauxcontacts }} </td>
-                    <td> {{ casItem.nouveauximportes }} </td>
-                    <td> {{ casItem.nouveaucommunautaire }} </td>
+                 <tbody>
+                 <tr *ngFor="let stat of stats">
+                    <td> {{ stat.date }} </td>
+                    <td> {{ stat.newCase }} </td>
+                    <td> {{ stat.underTreatment }} </td>
+                    <td> {{ stat.healed }} </td>
+                    <td> {{ stat.death }} </td>
+                    <td> {{ stat.contactCase }} </td>
+                    <td> {{ stat.importedCase }} </td>
+                    <td> {{ stat.communityCase }} </td>
                  </tr>
-                 <tr class="active" style="font-weight: bold;" *ngIf="lastCas">
+                 <tr class="active" style="font-weight: bold;">
                     <td>TOTAL</td>
-                    <td> {{ lastCas.totalCas }} </td>
-                    <td> {{ lastCas.totalGueris }} </td>
-                    <td> {{ lastCas.totalDeces }} </td>
-                    <td> {{ lastCas.totalcontacts }} </td>
-                    <td> {{ lastCas.totalimportes }} </td>
-                    <td> {{ lastCas.totalcommunautaire }} </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>  </td>
                  </tr>
                  </tbody>
             </table>

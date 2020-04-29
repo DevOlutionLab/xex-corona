@@ -12,6 +12,7 @@ import { TestnegComponent } from './testneg/testneg.component';
 import { MembreComponent } from './membre/membre.component';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+import { StatsService } from './stats.service';
 
 @NgModule({
   imports: [
@@ -22,7 +23,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule
-
   ],
   declarations: [
     AppComponent,
@@ -33,7 +33,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'
     TestnegComponent,
     MembreComponent
   ],
-  providers: [],
+  providers: [StatsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

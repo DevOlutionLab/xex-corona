@@ -8,7 +8,7 @@
             <h4>En répondant aux questions par OUI ou NON</h4>
             <h5>Ce test n’est pas un dispositif médical, il ne délivre pas d’avis médical définitif.</h5>
       </div>
-      <form [formGroup]="testForm" (ngSubmit)="onTestSubmit()">
+      <form>
          <p>Avez-vous un mal de tête ?</p>
             <div class="mal-tete">
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="malDeTete" [value]=1>

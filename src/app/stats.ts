@@ -1,13 +1,13 @@
 export interface Imain {
-    "newCase":number;
-    "healed":number;
-    "underTreatment":number;
-    "death":number;
+    "Mall":number;
+    "Mhealed":number;
+    "MunderTreatment":number;
+    "Mdeath":number;
 }
 
 export interface Istats {
-    "id":number;
     "date":string;
+    "nbrTest":number;
     "newCase":number;
     "contactCase":number;
     "importedCase":number;
@@ -18,5 +18,12 @@ export interface Istats {
 }
 
 export interface Itotal {
-    
+    "TnbrTest":number;
+    "TnewCase":number;
+    "TcontactCase":number;
+    "TimportedCase":number;
+    "TcommunityCase":number;
+    "Thealed":number;
+    "TunderTreatment":number;
+    "Tdeath":number;    
 }

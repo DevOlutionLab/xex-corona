@@ -66,32 +66,32 @@
        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="service-widget">
              <h3>Infectés</h3>
-             <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2 class="nbr">0</h2>
+             <div *ngFor="let mn of main" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <h2 class="nbr" style="color: orange;"> {{ mn.Mall }} </h2>
              </div>
           </div>
        </div>
        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="service-widget">
              <h3>Guéris</h3>
-             <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2 class="nbr">0</h2>
+             <div *ngFor="let mn of main" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <h2 class="nbr" style="color: green;"> {{ mn.Mhealed }} </h2>
              </div>
           </div>
        </div>
        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="service-widget">
              <h3>Sous traitement</h3>
-             <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2 class="nbr">0</h2>
+             <div *ngFor="let mn of main" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <h2 class="nbr" style="color: yellow;"> {{ mn.MunderTreatment }} </h2>
              </div>
           </div>
        </div>
        <div class="col-md-3 col-sm-6 col-xs-12">
              <div class="service-widget">
                  <h3>Décès</h3>
-                 <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                     <h2 class="nbr">0</h2>
+                 <div *ngFor="let mn of main" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                     <h2 class="nbr" style="color: crimson;"> {{ mn.Mdeath }} </h2>
                  </div>
              </div>
          </div>
@@ -99,41 +99,45 @@
      <br>
       <div class="heading">
          <h2>Tableau journalier</h2>
+         <h4>Des 5 derniers jours</h4>
       </div> <br>
       <div class="row table-responsive">
              <table class="table" style="text-align: center;">
                  <thead>
                  <tr>
                      <th class="primary" style="text-align: center;">Date</th>
-                     <th class="warning" style="text-align: center;">Nouveaux cas</th>
-                     <th class="info" style="text-align: center;">Sous-traitment</th>
-                     <th class="success" style="text-align: center;">Guéris</th>
-                     <th class="danger" style="text-align: center;">Décès</th>
+                     <th class="warning" style="text-align: center;">Nombre de test</th>
+                     <th class="danger" style="text-align: center;">Cas positif</th>
                      <th class="warning" style="text-align: center;">Cas contact</th>
                      <th class="info" style="text-align: center;">Cas importé</th>
                      <th class="danger" style="text-align: center;">Cas communautaire</th>
+                     <th class="info" style="text-align: center;">Sous-traitment</th>
+                     <th class="success" style="text-align: center;">Guéris</th>
+                     <th class="danger" style="text-align: center;">Décès</th>
                  </tr>
                  </thead>
                  <tbody>
                  <tr *ngFor="let stat of stats">
                     <td> {{ stat.date }} </td>
+                    <td> {{ stat.nbrTest }} </td>
                     <td> {{ stat.newCase }} </td>
-                    <td> {{ stat.underTreatment }} </td>
-                    <td> {{ stat.healed }} </td>
-                    <td> {{ stat.death }} </td>
                     <td> {{ stat.contactCase }} </td>
                     <td> {{ stat.importedCase }} </td>
                     <td> {{ stat.communityCase }} </td>
+                    <td> {{ stat.underTreatment }} </td>
+                    <td> {{ stat.healed }} </td>
+                    <td> {{ stat.death }} </td>
                  </tr>
-                 <tr class="active" style="font-weight: bold;">
-                    <td>TOTAL</td>
-                    <td>  </td>
-                    <td>  </td>
-                    <td>  </td>
-                    <td>  </td>
-                    <td>  </td>
-                    <td>  </td>
-                    <td>  </td>
+                 <tr *ngFor="let tt of total" class="active" style="font-weight: bold;">
+                    <td>Total</td>
+                    <td> {{ tt.TnbrTest }} </td>
+                    <td> {{ tt.TnewCase }} </td>
+                    <td> {{ tt.TcontactCase }} </td>
+                    <td> {{ tt.TimportedCase }} </td>
+                    <td> {{ tt.TcommunityCase }} </td>
+                    <td> {{ tt.TunderTreatment }} </td>
+                    <td> {{ tt.Thealed }} </td>
+                    <td> {{ tt.Tdeath }} </td>
                  </tr>
                  </tbody>
             </table>
@@ -173,16 +177,17 @@
          <div class="row">
             <div class="col-md-6">
                <div class="message-box">
-                  <h4>Vidéo de sensibilisation</h4>
-                     <p>Vidéo de sensibilisation des étudiants contre le Covid-19 en différent langue locale.<br><br>
-                        Ce programme s’adresse à tous les étudiants du Sénégal et vise à impliquer davantage la jeunesse dans la vie de la Nation, promouvoir une citoyenneté active et favoriser l’esprit d’engagement et de don dans le contexte de la riposte contre le COVID-19.
-                        <br>Le programme permet aux étudiant-e-s qui le souhaitent (sans condition de nationalité ou de spécialité) de devenir des volontaires au service du Centre des Opérations d’Urgence Sanitaire (COUS).
+                  <h4>Spot vidéo sur le Coronavirus</h4>
+                     <p>Vidéo de sensibilisation du Ministère de la santé et de l'Action Sociale.<br><br>
+                        Respectons les mesures de prévention !<br><br>
+                        Assurez-vous de partager ces conseils avec votre entourage !<br>
+                        Surmonter une telle pandémie est un effort collectif et nous devons agir tous ensemble.
                      </p>
                </div>
             </div>
             <div class="col-md-6">
                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-IpTxEd6BTw" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/1eoomo4rnSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                </div>
             </div>
       </div>

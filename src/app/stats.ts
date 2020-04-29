@@ -1,4 +1,12 @@
+export interface Imain {
+    "newCase":number;
+    "healed":number;
+    "underTreatment":number;
+    "death":number;
+}
+
 export interface Istats {
+    "id":number;
     "date":string;
     "newCase":number;
     "contactCase":number;
@@ -7,4 +15,8 @@ export interface Istats {
     "healed":number;
     "underTreatment":number;
     "death":number;
+}
+
+export interface Itotal {
+    
 }

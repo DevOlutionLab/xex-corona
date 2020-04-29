@@ -66,24 +66,24 @@
        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="service-widget">
              <h3>Infectés</h3>
-             <div *ngFor="let stat of stats" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2 class="nbr">{{ stat.infected }}</h2>
+             <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <h2 class="nbr">0</h2>
              </div>
           </div>
        </div>
        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="service-widget">
              <h3>Guéris</h3>
-             <div *ngFor="let stat of stats" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2 class="nbr">{{ stat.healed }}</h2>
+             <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <h2 class="nbr">0</h2>
              </div>
           </div>
        </div>
        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="service-widget">
              <h3>Sous traitement</h3>
-             <div *ngFor="let stat of stats" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <h2 class="nbr">{{ stat.underTreatment }}</h2>
+             <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <h2 class="nbr">0</h2>
              </div>
           </div>
        </div>
@@ -91,7 +91,7 @@
              <div class="service-widget">
                  <h3>Décès</h3>
                  <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                     <h2 class="nbr"></h2>
+                     <h2 class="nbr">0</h2>
                  </div>
              </div>
          </div>
@@ -104,14 +104,14 @@
              <table class="table" style="text-align: center;">
                  <thead>
                  <tr>
-                     <th class="primary">Date</th>
-                     <th class="warning">Nouveaux cas</th>
-                     <th class="info">Sous-traitment</th>
-                     <th class="success">Guéris</th>
-                     <th class="danger">Décès</th>
-                     <th class="warning">Cas contact</th>
-                     <th class="info">Cas importé</th>
-                     <th class="danger">Cas communautaire</th>
+                     <th class="primary" style="text-align: center;">Date</th>
+                     <th class="warning" style="text-align: center;">Nouveaux cas</th>
+                     <th class="info" style="text-align: center;">Sous-traitment</th>
+                     <th class="success" style="text-align: center;">Guéris</th>
+                     <th class="danger" style="text-align: center;">Décès</th>
+                     <th class="warning" style="text-align: center;">Cas contact</th>
+                     <th class="info" style="text-align: center;">Cas importé</th>
+                     <th class="danger" style="text-align: center;">Cas communautaire</th>
                  </tr>
                  </thead>
                  <tbody>
@@ -127,6 +127,7 @@
                  </tr>
                  <tr class="active" style="font-weight: bold;">
                     <td>TOTAL</td>
+                    <td>  </td>
                     <td>  </td>
                     <td>  </td>
                     <td>  </td>
@@ -194,14 +195,14 @@
             <h2>Recommandations</h2>
       </div>
          <div class="row">
-             <div class="col-md-6">
+             <div class="col-md-6" style="text-align: center;">
                  <div class="message-box">
                   <span class="icon-logo"><img src="../assets/images/reco/wash.png" alt="#"></span>
                      <h4>Se laver fréquemment les mains</h4>
-                     <p>Se laver fréquemment les mains avec une solution hydroalcoolique ou à l’eau et au savon.</p>
+                     <p>Se laver fréquemment les mains avec une solution hydroalcoolique ou à l’eau et au savon pour tuer les germes se trouvant sur nos mains.</p>
                  </div>
              </div>
-             <div class="col-md-6">
+             <div class="col-md-6" style="text-align: center;">
                  <div class="message-box">
                   <span class="icon-logo"><img src="../assets/images/reco/social.png" alt="#"></span>
                      <h4>Éviter les contacts proches</h4>
@@ -210,28 +211,28 @@
              </div>
          </div>
          <div class="row">
-             <div class="col-md-6">
+             <div class="col-md-6" style="text-align: center;">
                  <div class="message-box">
                   <span class="icon-logo"><img src="../assets/images/reco/face.png" alt="#"></span>
                      <h4>Éviter de se toucher les yeux, le nez et la bouche.</h4>
                      <p>Pourquoi? Les mains sont en contact avec de nombreuses surfaces qui peuvent être contaminées par le virus. Si vous vous touchez les yeux, le nez ou la bouche, vous risquez d’être en contact avec le virus présent sur ces surfaces.</p>
                  </div>
              </div>
-             <div class="col-md-6">
+             <div class="col-md-6" style="text-align: center;">
                  <div class="message-box">
                   <span class="icon-logo"><img src="../assets/images/reco/mask.png" alt="#"></span>
                      <h4>Respecter les règles d’hygiène respiratoire</h4>
-                     <p>Se couvrir la bouche et le nez avec le pli du coude ou avec un mouchoir en cas de toux ou d’éternuement – jeter le mouchoir immédiatement après dans une poubelle fermée et se laver les mains avec une solution hydroalcoolique ou à l’eau et au savon.</p>
+                     <p>Se couvrir la bouche et le nez avec le pli du coude ou avec un mouchoir en cas de toux ou d’éternuement puis jeter le mouchoir immédiatement après dans une poubelle fermée et se laver les mains.</p>
                  </div>
              </div>
-             <div class="col-md-6">
+             <div class="col-md-6" style="text-align: center;">
                  <div class="message-box">
                   <span class="icon-logo"><img src="../assets/images/reco/earth.png" alt="#"></span>
                      <h4>Tenez-vous informé</h4>
                      <p>Tenez-vous au courant des dernières évolutions concernant la COVID-19, pour tout savoir en temps réel et éviter les Fakenews.</p>
                  </div>
              </div>
-             <div class="col-md-6">
+             <div class="col-md-6" style="text-align: center;">
                  <div class="message-box">
                   <span class="icon-logo"><img src="../assets/images/reco/medical.png" alt="#"></span>
                      <h4>Suivez les conseils de votre médecin</h4>

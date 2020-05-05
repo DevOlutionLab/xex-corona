@@ -1,13 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-//import { TestComponent } from './test/test.component';
 //import { TestposComponent } from './testpos/testpos.component';
 //import { TestnegComponent } from './testneg/testneg.component';
 
 import { appRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { TestComponent } from './test/test.component';
 import { FaqComponent } from './faq/faq.component';
 import { HomeComponent } from './home/home.component';
 import { MembreComponent } from './membre/membre.component';
@@ -27,6 +27,7 @@ import { StatsService } from './stats.service';
   ],
   declarations: [
     AppComponent,
+    TestComponent,
     FaqComponent,
     HomeComponent,
     MembreComponent

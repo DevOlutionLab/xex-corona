@@ -1,13 +1,12 @@
 import { Routes, RouterModule } from '@angular/router';
-
-//import { TestposComponent } from './testpos/testpos.component';
-//import { TestnegComponent } from './testneg/testneg.component';
-
-import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { TestComponent } from './test/test.component';
-import { FaqComponent } from './faq/faq.component';
+import { AppComponent } from './app.component';
+
 import { HomeComponent } from './home/home.component';
+import { TestComponent } from './test/test.component';
+import { TestposComponent } from './testpos/testpos.component';
+import { TestnegComponent } from './testneg/testneg.component';
+import { FaqComponent } from './faq/faq.component';
 import { MembreComponent } from './membre/membre.component';
 
 const routes: Routes = [
@@ -17,8 +16,8 @@ const routes: Routes = [
     { path: 'membre', component: MembreComponent },
     { path: 'test', component: TestComponent },
 
-//    { path: 'testpos', component: TestposComponent },
-//    { path: 'testneg', component: TestnegComponent },
+    { path: 'testpos', component: TestposComponent },
+    { path: 'testneg', component: TestnegComponent },
 
     { path: '', redirectTo: '/home', pathMatch: 'full' }
 

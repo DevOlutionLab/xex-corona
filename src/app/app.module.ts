@@ -1,9 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-//import { TestposComponent } from './testpos/testpos.component';
-//import { TestnegComponent } from './testneg/testneg.component';
-
+import { TestposComponent } from './testpos/testpos.component';
+import { TestnegComponent } from './testneg/testneg.component';
 import { appRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -14,6 +13,7 @@ import { MembreComponent } from './membre/membre.component';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { StatsService } from './stats.service';
+import { from } from 'rxjs';
 
 @NgModule({
   imports: [
@@ -27,9 +27,11 @@ import { StatsService } from './stats.service';
   ],
   declarations: [
     AppComponent,
-    TestComponent,
-    FaqComponent,
     HomeComponent,
+    TestComponent,
+    TestposComponent,
+    TestnegComponent,
+    FaqComponent,
     MembreComponent
   ],
   providers: [StatsService],

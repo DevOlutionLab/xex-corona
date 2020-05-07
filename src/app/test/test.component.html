@@ -8,7 +8,7 @@
             <h4>En répondant aux questions par OUI ou NON</h4>
             <h5>Ce test n’est pas un dispositif médical, il ne délivre pas d’avis médical définitif.</h5>
       </div>
-      <form>
+      <form  [formGroup]="testForm" (ngSubmit)="testing()">
          <p>Avez-vous un mal de tête ?</p>
             <div class="mal-tete">
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="malDeTete" [value]=1>
@@ -52,42 +52,48 @@
          <p>Avez-vous des difficultés à respirer ?</p>
             <div class="respiration">
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="geneRespiratoire" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label><br>
+               <label class="custom-control-label" for="customCheck1">OUI</label>
+               <br>
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="geneRespiratoire" [value]=0>
                <label class="custom-control-label" for="customCheck1">NON</label>
             </div><br>
          <p>Ressentez-vous une fatigue inhabituelle ?</p>
             <div class="fatigue">
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="fatigueInnabituelle" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label><br>
+               <label class="custom-control-label" for="customCheck1">OUI</label>
+               <br>
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="fatigueInnabituelle" [value]=0>
                <label class="custom-control-label" for="customCheck1">NON</label>
             </div><br>
          <p>Avez-vous du mal à vous alimenter ?</p>
             <div class="alimentation">
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="alimentationDifficile" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label><br>
+               <label class="custom-control-label" for="customCheck1">OUI</label>
+               <br>
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="alimentationDifficile" [value]=0>
                <label class="custom-control-label" for="customCheck1">NON</label>
             </div><br>
          <p>Avez-vous des courbatures ?</p>
             <div class="courbature">
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="courbature" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label><br>
+               <label class="custom-control-label" for="customCheck1">OUI</label>
+               <br>
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="courbature" [value]=0>
                <label class="custom-control-label" for="customCheck1">NON</label>
             </div><br>
          <p>Avez-vous recemment fait un voyage dans un pays ou il y a le covid-19 ?</p>
             <div class="voyage">
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="voyage" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label><br>
+               <label class="custom-control-label" for="customCheck1">OUI</label>
+               <br>
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="voyage" [value]=0>
                <label class="custom-control-label" for="customCheck1">NON</label>
             </div><br>
          <p>Avez-vous un contact avec une personne infectée ou un cas suspect ?</p>
             <div class="contact">
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="enContact" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label><br>
+               <label class="custom-control-label" for="customCheck1">OUI</label>
+               <br>
                <input type="radio" class="custom-control-input" id="customCheck1" formControlName="enContact" [value]=0>
                <label class="custom-control-label" for="customCheck1">NON</label>
             </div><br>

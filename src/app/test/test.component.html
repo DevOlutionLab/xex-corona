@@ -4,101 +4,146 @@
    <div class="container">
       <div class="heading">
          <span class="icon-logo"><img src="../../assets/images/icons/icon4.png" alt="#"></span>
-            <h2>Faites un test en ligne</h2>
-            <h4>En répondant aux questions par OUI ou NON</h4>
-            <h5>Ce test n’est pas un dispositif médical, il ne délivre pas d’avis médical définitif.</h5>
+            <h2>Faire un test en ligne</h2>
+            <h5><strong>ATTENTION:</strong><br>Ce test n’est pas un dispositif médical, il ne délivre pas d’avis médical définitif.</h5>
       </div>
       <form  [formGroup]="testForm" (ngSubmit)="testing()">
-         <p>Avez-vous un mal de tête ?</p>
+         <h4 style="text-align: center; font-weight: bold;">Avez-vous un mal de tête ?</h4>
             <div class="mal-tete">
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="malDeTete" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label>
-               <br>
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="malDeTete" [value]=0>
-               <label class="custom-control-label" for="customCheck1">NON</label>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck1" formControlName="malDeTete" [value]=1>
+                  <label class="custom-control-label" for="customCheck1">OUI</label>
+               </div>            
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck2" formControlName="malDeTete" [value]=0>
+                  <label class="custom-control-label" for="customCheck2">NON</label>
+               </div>
             </div><br>
-         <p>Avez-vous de la toux ?</p>
+
+         <h4 style="text-align: center; font-weight: bold;">Avez-vous de la toux ?</h4>
             <div class="toux">
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="toux" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label>
-               <br>
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="toux" [value]=0>
-               <label class="custom-control-label" for="customCheck1">NON</label>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck3" formControlName="toux" [value]=1>
+                  <label class="custom-control-label" for="customCheck3">OUI</label>
+               </div>            
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck4" formControlName="toux" [value]=0>
+                  <label class="custom-control-label" for="customCheck4">NON</label>
+               </div>            
             </div><br>
-         <p>Avez-vous des maux de gorge?</p>
+
+         <h4 style="text-align: center; font-weight: bold;">Avez-vous un mal de gorge ?</h4>
             <div class="gorge">
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="gorgeIrritee" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label>
-               <br>
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="gorgeIrritee" [value]=0>
-               <label class="custom-control-label" for="customCheck1">NON</label>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck5" formControlName="gorgeIrritee" [value]=1>
+                  <label class="custom-control-label" for="customCheck5">OUI</label>
+               </div>            
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck6" formControlName="gorgeIrritee" [value]=0>
+                  <label class="custom-control-label" for="customCheck6">NON</label>
+               </div>
             </div><br>
-         <p>Avez-vous de la fièvre ?</p>
+
+         <h4 style="text-align: center; font-weight: bold;">Avez-vous de la fièvre ?</h4>
             <div class="fievre">
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="fievre" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label>
-               <br>
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="fievre" [value]=0>
-               <label class="custom-control-label" for="customCheck1">NON</label>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck7" formControlName="fievre" [value]=1>
+                  <label class="custom-control-label" for="customCheck7">OUI</label>
+               </div>            
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck8" formControlName="fievre" [value]=0>
+                  <label class="custom-control-label" for="customCheck8">NON</label>
+               </div>
             </div><br>
-         <p>Avez-vous le sentiment général de malaise ?</p>
+
+         <h4 style="text-align: center; font-weight: bold;">Avez-vous le sentiment général de malaise ?</h4>
             <div class="malaise">
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="sentimentGeneralDeMalaise" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label>
-               <br>
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="sentimentGeneralDeMalaise" [value]=0>
-               <label class="custom-control-label" for="customCheck1">NON</label>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck9" formControlName="sentimentGeneralDeMalaise" [value]=1>
+                  <label class="custom-control-label" for="customCheck9">OUI</label>
+               </div>            
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck10" formControlName="sentimentGeneralDeMalaise" [value]=0>
+                  <label class="custom-control-label" for="customCheck10">NON</label>
+               </div>
             </div><br>
-         <p>Avez-vous des difficultés à respirer ?</p>
+
+         <h4 style="text-align: center; font-weight: bold;">Avez-vous des difficultés à respirer ?</h4>
             <div class="respiration">
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="geneRespiratoire" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label>
-               <br>
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="geneRespiratoire" [value]=0>
-               <label class="custom-control-label" for="customCheck1">NON</label>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck11" formControlName="geneRespiratoire" [value]=1>
+                  <label class="custom-control-label" for="customCheck11">OUI</label>
+               </div>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck12" formControlName="geneRespiratoire" [value]=0>
+                  <label class="custom-control-label" for="customCheck12">NON</label>
+               </div>
             </div><br>
-         <p>Ressentez-vous une fatigue inhabituelle ?</p>
+
+         <h4 style="text-align: center; font-weight: bold;">Ressentez-vous une fatigue inhabituelle ?</h4>
             <div class="fatigue">
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="fatigueInnabituelle" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label>
-               <br>
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="fatigueInnabituelle" [value]=0>
-               <label class="custom-control-label" for="customCheck1">NON</label>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck13" formControlName="fatigueInnabituelle" [value]=1>
+                  <label class="custom-control-label" for="customCheck13">OUI</label>
+               </div>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck14" formControlName="fatigueInnabituelle" [value]=0>
+                  <label class="custom-control-label" for="customCheck14">NON</label>
+               </div>
             </div><br>
-         <p>Avez-vous du mal à vous alimenter ?</p>
+
+         <h4 style="text-align: center; font-weight: bold;">Avez-vous du mal à vous alimenter ?</h4>
             <div class="alimentation">
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="alimentationDifficile" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label>
-               <br>
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="alimentationDifficile" [value]=0>
-               <label class="custom-control-label" for="customCheck1">NON</label>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck15" formControlName="alimentationDifficile" [value]=1>
+                  <label class="custom-control-label" for="customCheck15">OUI</label>
+               </div>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck16" formControlName="alimentationDifficile" [value]=0>
+                  <label class="custom-control-label" for="customCheck16">NON</label>
+               </div>
             </div><br>
-         <p>Avez-vous des courbatures ?</p>
+
+         <h4 style="text-align: center; font-weight: bold;">Avez-vous des courbatures ?</h4>
             <div class="courbature">
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="courbature" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label>
-               <br>
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="courbature" [value]=0>
-               <label class="custom-control-label" for="customCheck1">NON</label>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck17" formControlName="courbature" [value]=1>
+                  <label class="custom-control-label" for="customCheck17">OUI</label>
+               </div>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck18" formControlName="courbature" [value]=0>
+                  <label class="custom-control-label" for="customCheck18">NON</label>
+               </div>
             </div><br>
-         <p>Avez-vous recemment fait un voyage dans un pays ou il y a le covid-19 ?</p>
+
+         <h4 style="text-align: center; font-weight: bold;">Avez-vous récemment fait un voyage dans un pays où infectés par le COVID-19 ?</h4>
             <div class="voyage">
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="voyage" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label>
-               <br>
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="voyage" [value]=0>
-               <label class="custom-control-label" for="customCheck1">NON</label>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck19" formControlName="voyage" [value]=1>
+                  <label class="custom-control-label" for="customCheck19">OUI</label>
+               </div>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck20" formControlName="voyage" [value]=0>
+                  <label class="custom-control-label" for="customCheck20">NON</label>
+               </div>
             </div><br>
-         <p>Avez-vous un contact avec une personne infectée ou un cas suspect ?</p>
+
+         <h4 style="text-align: center; font-weight: bold;">Avez-vous été en contact avec une personne infectée ou un cas suspect ?</h4>
             <div class="contact">
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="enContact" [value]=1>
-               <label class="custom-control-label" for="customCheck1">OUI</label>
-               <br>
-               <input type="radio" class="custom-control-input" id="customCheck1" formControlName="enContact" [value]=0>
-               <label class="custom-control-label" for="customCheck1">NON</label>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck21" formControlName="enContact" [value]=1>
+                  <label class="custom-control-label" for="customCheck21">OUI</label>
+               </div>
+               <div class="radiobtn">
+                  <input type="radio" class="custom-control-input" id="customCheck22" formControlName="enContact" [value]=0>
+                  <label class="custom-control-label" for="customCheck22">NON</label>
+               </div>
             </div><br>
+
             <br>
-               <button type="submit" class="btn btn-primary">Recevoir le diagnostic</button>
+            <div style="text-align: center; font-weight: bold;">
+               <button type="submit" class="btn btn-primary btn-lg">Recevoir le diagnostic</button>
+            </div>
         </form>
     </div>
 </div>

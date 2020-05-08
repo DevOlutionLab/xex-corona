@@ -1,6 +1,5 @@
 import { Routes, RouterModule } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { AppComponent } from './app.component';
 
 import { HomeComponent } from './home/home.component';
 import { TestComponent } from './test/test.component';

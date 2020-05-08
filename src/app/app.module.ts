@@ -13,7 +13,6 @@ import { MembreComponent } from './membre/membre.component';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { StatsService } from './stats.service';
-import { from } from 'rxjs';
 
 @NgModule({
   imports: [

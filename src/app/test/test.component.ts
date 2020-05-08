@@ -42,7 +42,7 @@ export class TestComponent implements OnInit {
           }
     })
 
-    if (this.count <= 11 && this.count >= 6) {
+    if (this.count <= 11 && this.count >= 5) {
       alert('Suspect!');
       console.log(this.count, this.value)
     }

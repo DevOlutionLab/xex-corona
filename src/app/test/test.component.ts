@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms'
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-test',
@@ -9,7 +10,7 @@ import { FormBuilder, FormGroup } from '@angular/forms'
 export class TestComponent implements OnInit {
   testForm: FormGroup;
 
-  constructor(private fb: FormBuilder) { }
+  constructor(private fb: FormBuilder,private _route: Router) { }
 
   ngOnInit() {
     this.testForm = this.fb.group({  // Crée une instance de FormGroup
@@ -42,13 +43,14 @@ export class TestComponent implements OnInit {
           }
     })
 
-    if (this.count <= 11 && this.count >= 5) {
-      alert('Suspect!');
-      console.log(this.count, this.value)
+    if (this.count <= 11 && this.count >= 4) {
+      //alert('Suspect!');
+      this._route.navigate(['/testpos']);
     }
     else {
-      alert('Ca va!');
-      console.log(this.count)
+      //alert('Ca va!');
+      this._route.navigate(['/testneg']);
+      //console.log(this.count)
     }
   }
 

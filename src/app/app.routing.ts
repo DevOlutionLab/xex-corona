@@ -12,7 +12,7 @@ const routes: Routes = [
     { path: 'ftaw', component: FontAwesomeModule },
     { path: 'faq', component: FaqComponent },
     { path: 'home', component: HomeComponent },
-    { path: 'membre', component: MembreComponent },
+    { path: 'about', component: MembreComponent },
     { path: 'test', component: TestComponent },
 
     { path: 'testpos', component: TestposComponent },

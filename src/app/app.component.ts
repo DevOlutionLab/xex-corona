@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faMap } from '@fortawesome/free-solid-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -17,9 +18,10 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 })
 export class AppComponent {
   title = 'xeex-corona-app';
-  faTwitter = faTwitter;
-  faFacebook = faFacebook;
-  faInstagram = faInstagram;
+  faT = faTwitter;
+  faF = faFacebook;
+  faI = faInstagram;
+  faG = faGithub;
   faMap = faMap;
   faPaperPlane = faPaperPlane;
   faPhone = faPhone;

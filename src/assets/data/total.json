@@ -1,12 +1,12 @@
 [
     {
-        "TnbrTest":"5092",
-        "TnewCase":"503",
-        "TcontactCase":"471",
+        "TnbrTest":"5128",
+        "TnewCase":"543",
+        "TcontactCase":"509",
         "TimportedCase":"0",
-        "TcommunityCase":"32",
-        "Thealed":"180",
-        "TunderTreatment":"1233",
+        "TcommunityCase":"34",
+        "Thealed":"234",
+        "TunderTreatment":"1454",
         "Tdeath":"6"
     }
 ]

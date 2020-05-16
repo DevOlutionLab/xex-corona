@@ -1,0 +1,99 @@
+[{
+        "id": 1,
+        "code": "SN-DK",
+        "name": "Dakar",
+        "cases": 100,
+        "departments": "Dakar: 100 <br/> Guediawaye: 50 <br/> Pikine: 50"
+    },
+    {
+        "id": 2,
+        "code": "SN-DB",
+        "name": "Diourbel",
+        "cases": 35,
+        "departments": "Bambey: 100 <br/> Diourbel: 50 <br/> Mbacke: 50"
+    },
+    {
+        "id": 3,
+        "code": "SN-FK",
+        "name": "Fatick",
+        "cases": 10,
+        "departments": "Fatick: 100 <br/> Foundiougne: 50 <br/> Gossas: 50"
+    },
+    {
+        "id": 4,
+        "code": "SN-KA",
+        "name": "Kaffrine",
+        "cases": 43,
+        "departments": "Kaffrine: 100 <br/> Birkilane: 50 <br/> Koungheul: 50 <br/> Malem Hoddar"
+    },
+    {
+        "id": 5,
+        "code": "SN-KL",
+        "name": "Kaolack",
+        "cases": 55,
+        "departments": "Guinguineo: 100 <br/> Kaolock: 50 <br/> Nioro du Rip: 50"
+    },
+    {
+        "id": 6,
+        "code": "SN-KE",
+        "name": "Kedougou",
+        "cases": 0,
+        "departments": "Kedougou: 100 <br/> Salemata: 50 <br/> Saraya: 50"
+    },
+    {
+        "id": 7,
+        "code": "SN-KD",
+        "name": "Kolda",
+        "cases": 56,
+        "departments": "Kolda: 100 <br/> Medina Yoro Foulah: 50 <br/> Velingara: 50"
+    },
+    {
+        "id": 8,
+        "code": "SN-LG",
+        "name": "Louga",
+        "cases": 40,
+        "departments": "Kebemer: 100 <br/> Linguere: 50 <br/> Louga: 50"
+    },
+    {
+        "id": 9,
+        "code": "SN-MT",
+        "name": "Matam",
+        "cases": 87,
+        "departments": "Kanel: 100 <br/> Matam: 50 <br/> Ranerou Ferlo: 50"
+    },
+    {
+        "id": 10,
+        "code": "SN-SL",
+        "name": "Saint-Louis",
+        "cases": 30,
+        "departments": "Dagana: 100 <br/> Podor: 50 <br/> Saint-Louis: 50"
+    },
+    {
+        "id": 11,
+        "code": "SN-SE",
+        "name": "Sédhiou",
+        "cases": 54,
+        "departments": "Bounkiling: 100 <br/> Goudomp: 50 <br/> Sedhiou: 50"
+    },
+    {
+        "id": 12,
+        "code": "SN-TC",
+        "name": "Tambacounda",
+        "cases": 67,
+        "departments": "Bakel: 100 <br/> Goudiry: 50 <br/> Koumpentoum: 50 <br/> Tambacounda: 50"
+    },
+    {
+        "id": 13,
+        "code": "SN-TH",
+        "name": "Thies",
+        "cases": 0,
+        "departments": "Mbour: 100 <br/> Thies: 50 <br/> Tivaouane: 50"
+    },
+    {
+        "id": 14,
+        "code": "SN-ZG",
+        "name": "Ziguinchor",
+        "cases": 0,
+        "departments": "Bignona: 100 <br/> Oussouye: 50 <br/> Ziguinchor: 50"
+    }
+]

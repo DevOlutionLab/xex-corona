@@ -2,98 +2,98 @@
         "id": 1,
         "code": "SN-DK",
         "name": "Dakar",
-        "cases": 100,
-        "departments": "Dakar: 100 <br/> Guediawaye: 50 <br/> Pikine: 50"
+        "cases": 1702,
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'> Dakar</div> Dakar Centre: 283 <br>Dakar Nord: 242 <br> Dakar Sud: 359 <br> Dakar Ouest: 386 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Pikine </div> Pikine: 62 <br> Yeumbeul: 33 <br> Mbao: 72 <br> Keur Massar: 20 <br> <div style ='border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Guediawaye </div> Guediawaye: 92 <br> <div style ='border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Rufisque </div> Rufisque: 53 <br> Sangalkam: 79 <br> Diamniadio: 24</div>"
     },
     {
         "id": 2,
         "code": "SN-DB",
         "name": "Diourbel",
-        "cases": 35,
-        "departments": "Bambey: 100 <br/> Diourbel: 50 <br/> Mbacke: 50"
+        "cases": 329,
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'> Diourbel</div> Diourbel: 1 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Mbacké </div> Mbacké: 42 <br> Touba: 286 <br> <div style ='border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Bambeye </div> Bambeye: 0 </div>"
     },
     {
         "id": 3,
         "code": "SN-FK",
         "name": "Fatick",
-        "cases": 10,
-        "departments": "Fatick: 100 <br/> Foundiougne: 50 <br/> Gossas: 50"
+        "cases": 2,
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'> Fatick</div> Fatick: 1 <br> Dioffior: 0 <br> Niakhar: 0 <br> Diakhao: 1 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Gossas </div> Gossas: 0 <br> <div style ='border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Foundiougne </div> Foundiougne: 0 <br> Passy: 0 <br> Sokone: 0 </div>"
     },
     {
         "id": 4,
         "code": "SN-KA",
         "name": "Kaffrine",
-        "cases": 43,
-        "departments": "Kaffrine: 100 <br/> Birkilane: 50 <br/> Koungheul: 50 <br/> Malem Hoddar"
+        "cases": 0,
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'> Kaffrine</div> Kaffrine: 0 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Koungheul </div> Koungheul: 0 <br> <div style ='border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Birkilane </div> Birkilane: 0 <br> <div style ='border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Malem Hoddar </div> Malem Hoddar: 0 </div>"
     },
     {
         "id": 5,
         "code": "SN-KL",
         "name": "Kaolack",
-        "cases": 55,
-        "departments": "Guinguineo: 100 <br/> Kaolock: 50 <br/> Nioro du Rip: 50"
+        "cases": 9,
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'> Kaolack</div> Kaolack: 5 <br> Ndoffane: 0 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Guinguineo </div> Guinguineo: 0 <br> <div style ='border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Nioro du Rip </div> Nioro du Rip: 4 </div>"
     },
     {
         "id": 6,
         "code": "SN-KE",
         "name": "Kedougou",
         "cases": 0,
-        "departments": "Kedougou: 100 <br/> Salemata: 50 <br/> Saraya: 50"
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'> Kédougou</div> Kédougou: 0 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Salémata </div> Salémata: 0 <br> <div style ='border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Saraya </div> Saraya: 0 </div>"
     },
     {
         "id": 7,
         "code": "SN-KD",
         "name": "Kolda",
-        "cases": 56,
-        "departments": "Kolda: 100 <br/> Medina Yoro Foulah: 50 <br/> Velingara: 50"
+        "cases": 65,
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'>Kolda</div> Kolda: 0 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Médina Yoro </div> Médina Yoro: 0 <br> <div style ='border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Velingara </div> Velingara: 65 </div>"
     },
     {
         "id": 8,
         "code": "SN-LG",
         "name": "Louga",
-        "cases": 40,
-        "departments": "Kebemer: 100 <br/> Linguere: 50 <br/> Louga: 50"
+        "cases": 33,
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'> Louga</div> Louga: 31 <br> Keur Momar Sarr: 0 <br> Coki: 0 <br> Sakal: 1 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Kebemer </div> Kebemer: 0 <br> Darou Mousty: 0 <br> <div style ='border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Linguere </div> Linguere: 1 <br> Dahra: 0 </div>"
     },
     {
         "id": 9,
         "code": "SN-MT",
         "name": "Matam",
-        "cases": 87,
-        "departments": "Kanel: 100 <br/> Matam: 50 <br/> Ranerou Ferlo: 50"
+        "cases": 0,
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'> Matam</div> Matam: 0 <br> Thilogne: 0 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Kanel </div> Kanel: 0 <br> Ranerou: 0 </div>"
     },
     {
         "id": 10,
         "code": "SN-SL",
         "name": "Saint-Louis",
-        "cases": 30,
-        "departments": "Dagana: 100 <br/> Podor: 50 <br/> Saint-Louis: 50"
+        "cases": 7,
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'> Saint-Louis</div> Saint-Louis: 6 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Dagana </div> Dagana: 0 <br> Richard Toll: 1 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Podor </div> Podor: 0 <br> Pété: 0 </div>"
     },
     {
         "id": 11,
         "code": "SN-SE",
         "name": "Sédhiou",
-        "cases": 54,
-        "departments": "Bounkiling: 100 <br/> Goudomp: 50 <br/> Sedhiou: 50"
+        "cases": 96,
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'> Sédhiou</div> Sédhiou: 96 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Goudomp </div> Goudomp: 0 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Bounkiling </div> Bounkiling: 0 </div>"
     },
     {
         "id": 12,
         "code": "SN-TC",
         "name": "Tambacounda",
-        "cases": 67,
-        "departments": "Bakel: 100 <br/> Goudiry: 50 <br/> Koumpentoum: 50 <br/> Tambacounda: 50"
+        "cases": 81,
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'> Tambacounda</div> Tambacounda: 18 <br> Makacoulibanta: 0 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Goudiry </div> Goudiry: 63 <br> Dianke Makha: 0 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Koumpentoum </div> Koumpentoum: 0 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Bakel </div> Bakel: 0 <br> Kidira: 0 </div>"
     },
     {
         "id": 13,
         "code": "SN-TH",
         "name": "Thies",
-        "cases": 0,
-        "departments": "Mbour: 100 <br/> Thies: 50 <br/> Tivaouane: 50"
+        "cases": 135,
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'> Thies</div> Thies: 54 <br> Pout: 54 <br> Khombole: 0 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Mbour </div> Mbour: 20 <br> Joal: 0 <br> Thiadiaye: 0 <br> Popenguine: 5 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Tivaouane </div> Tivaouane: 2 <br> Mekhe: 0 </div>"
     },
     {
         "id": 14,
         "code": "SN-ZG",
         "name": "Ziguinchor",
-        "cases": 0,
-        "departments": "Bignona: 100 <br/> Oussouye: 50 <br/> Ziguinchor: 50"
+        "cases": 18,
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0'> Ziguinchor</div> Ziguinchor: 15 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Bignona </div> Bignona: 0 <br> Diouloulou: 2 <br> Thionck-Essyl: 0 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0' > Oussouye </div> Oussouye: 1 </div>"
     }
 ]

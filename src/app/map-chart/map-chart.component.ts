@@ -36,18 +36,9 @@ this.mapChartService.getCasesPerRegion()
       .subscribe(
         (res: MapChartData[]) => {
           this.chartData = res;
-
           for (var mapData of this.chartData) {  
-
-            //data.addRow([mapData.code, mapData.name, mapData.cases]);
-
-            data.addRow([mapData.code, mapData.name, mapData.cases, `<p style="text-decoration: underline">total: ${mapData.cases}</p><div><p>${mapData.departments}</p></div>`])
-            // for(var detail of mapData.details) {
-
-            //   //console.log(detail.department)
-            // }
-          }
-          
+            data.addRow([mapData.code, `${mapData.name}: ${mapData.cases} cas`, mapData.cases, mapData.departments]);
+          }         
         },
         (err) => {
           this.error = err;
@@ -60,7 +51,7 @@ this.mapChartService.getCasesPerRegion()
           resolution: "provinces",
           displayMode: "regions",
           colorAxis: {
-              colors: ["rgb(119, 236, 119)", "#551d3b"],
+              colors: ["rgb(119, 236, 119)", "rgb(97, 41, 71)"],
           },
           tooltip: {
             isHtml: true}

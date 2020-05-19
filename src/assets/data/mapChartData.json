@@ -3,7 +3,7 @@
         "code": "SN-DK",
         "name": "Dakar",
         "cases": 1702,
-        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0; padding: 5px'> Dakar: 1270 cas </div> Dakar Centre: 283 <br>Dakar Nord: 242 <br> Dakar Sud: 359 <br> Dakar Ouest: 386 <br> <div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0; padding: 5px'> Pikine: 187 cas </div> Pikine: 62 <br> Yeumbeul: 33 <br> Mbao: 72 <br> Keur Massar: 20 <br> <div style ='border: 1px solid #551d3b; text-align: center; margin: 10px 0; padding: 5px'> Guediawaye: 92 cas </div> Guediawaye: 92 <br> <div style ='border: 1px solid #551d3b; text-align: center; margin: 10px 0; padding: 5px'> Rufisque: 156 cas </div> Rufisque: 53 <br> Sangalkam: 79 <br> Diamniadio: 24</div>"
+        "departments": "<div style='text-align: left; white-space: nowrap'><div style='border: 1px solid #551d3b; text-align: center; margin: 10px 0; padding: 5px'> Dakar: 1270 cas </div> Dakar Centre: 283 < br > Dakar Nord: 242 < br > Dakar Sud: 359 < br > Dakar Ouest: 386 < br > < div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0; padding: 5px' > Pikine: 187 cas < /div> Pikine: 62 <br> Yeumbeul: 33 <br> Mbao: 72 <br> Keur Massar: 20 <br> <div style ='border: 1px solid #551d3b; text-align: center; margin: 10px 0; padding: 5px'> Guediawaye: 92 cas </div > Guediawaye: 92 < br > < div style = 'border: 1px solid #551d3b; text-align: center; margin: 10px 0; padding: 5px' > Rufisque: 156 cas < /div> Rufisque: 53 <br> Sangalkam: 79 <br> Diamniadio: 24</div > "
     },
     {
         "id": 2,

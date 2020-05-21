@@ -17,6 +17,7 @@ export class MapChartComponent implements OnInit {
 
 chartData: MapChartData[];
 error;
+isLoading = true;
   
   constructor(private mapChartService: MapChartService) {
     // window.addEventListener("resize", this.drawMarkersMap);
@@ -26,6 +27,7 @@ error;
       
   drawMarkersMap = () => {
       if (google.visualization) {
+        this.isLoading = false;
         const data = new google.visualization.DataTable();
         data.addColumn('string', 'code');
         data.addColumn('string', 'name');
@@ -38,7 +40,10 @@ error;
                 this.chartData = res;
                 for (var mapData of this.chartData) {  
                   data.addRow([mapData.code, `${mapData.name}: ${mapData.cases} cas`, mapData.cases, mapData.departments]);
-                }         
+                }     
+                // google.visualization.events.addListener(chart, 'ready', function() {
+                //   this.isLoading = false;
+                // });    
               },
               (err) => {
                 this.error = err;
@@ -83,6 +88,7 @@ error;
             }, 750);
           });
       }    
+
   }
 
       ngAfterViewInit() {
@@ -90,7 +96,7 @@ error;
         google.charts.setOnLoadCallback(this.drawMarkersMap);
       }
 
-      ngOnInit(): void {        
+      ngOnInit(): void {    
         this.drawMarkersMap;   
       }
       

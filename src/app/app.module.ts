@@ -16,6 +16,8 @@ import { StatsService } from './stats.service';
 import { MapChartComponent } from './map-chart/map-chart.component';
 import { GoogleChartsModule } from 'angular-google-charts';
 import { Ng2GoogleChartsModule } from 'ng2-google-charts';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatProgressSpinner, MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 
 
 @NgModule({
@@ -28,7 +30,9 @@ import { Ng2GoogleChartsModule } from 'ng2-google-charts';
     FormsModule,
     ReactiveFormsModule,
     Ng2GoogleChartsModule,
-    GoogleChartsModule
+    GoogleChartsModule,
+    BrowserAnimationsModule,
+    MatProgressSpinnerModule
   ],
   declarations: [
     AppComponent,

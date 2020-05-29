@@ -1,5 +1,16 @@
 [
     {
+        "date":"29/5/2020",
+        "nbrTest":"1236",
+        "newCase":"81",
+        "contactCase":"66",
+        "importedCase":"2",
+        "communityCase":"13",
+        "healed":"52",
+        "underTreatment":"1649",
+        "death":"2"
+    },
+    {
         "date":"28/5/2020",
         "nbrTest":"991",
         "newCase":"95",
@@ -42,16 +53,5 @@
         "healed":"59",
         "underTreatment":"1579",
         "death":"0"
-    },
-    {
-        "date":"24/5/2020",
-        "nbrTest":"889",
-        "newCase":"71",
-        "contactCase":"66",
-        "importedCase":"1",
-        "communityCase":"4",
-        "healed":"40",
-        "underTreatment":"1555",
-        "death":"1"
     }
 ]

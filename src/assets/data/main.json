@@ -1,8 +1,10 @@
 [
     {
-        "Mall":"2976",
-        "Mhealed":"1416",
-        "MunderTreatment":"1525",
-        "Mdeath":"34"
+        "Mall":"4021",
+        "Mhealed":"2162",
+        "MunderTreatment":"1813",
+        "Mdeath":"45",
+        "MseriousCase":"16",
+        "Mevacuated":"1"
     }
 ]

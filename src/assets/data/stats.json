@@ -1,57 +1,52 @@
 [
     {
-        "date":"23/5/2020",
-        "nbrTest":"934",
-        "newCase":"67",
-        "contactCase":"49",
-        "importedCase":"2",
+        "date":"4/6/2020",
+        "nbrTest":"1343",
+        "newCase":"89",
+        "contactCase":"74",
+        "importedCase":"0",
+        "communityCase":"15",
+        "healed":"99",
+        "death":"0"
+    },
+    {
+        "date":"3/6/2020",
+        "nbrTest":"1549",
+        "newCase":"96",
+        "contactCase":"66",
+        "importedCase":"0",
         "communityCase":"16",
-        "healed":"105",
-        "underTreatment":"1525",
+        "healed":"109",
+        "death":"2"
+    },
+    {
+        "date":"2/6/2020",
+        "nbrTest":"1339",
+        "newCase":"97",
+        "contactCase":"77",
+        "importedCase":"0",
+        "communityCase":"20",
+        "healed":"96",
         "death":"1"
     },
     {
-        "date":"22/5/2020",
-        "nbrTest":"1999",
-        "newCase":"97",
-        "contactCase":"83",
+        "date":"1/6/2020",
+        "nbrTest":"1820",
+        "newCase":"94",
+        "contactCase":"84",
         "importedCase":"0",
-        "communityCase":"14",
-        "healed":"60",
-        "underTreatment":"1564",
-        "death":"3"
-    },
-    {
-        "date":"21/5/2020",
-        "nbrTest":"1215",
-        "newCase":"98",
-        "contactCase":"92",
-        "importedCase":"0",
-        "communityCase":"6",
-        "healed":"65",
-        "underTreatment":"1530",
-        "death":"0"
-    },
-    {
-        "date":"20/5/2020",
-        "nbrTest":"1042",
-        "newCase":"97",
-        "contactCase":"83",
-        "importedCase":"0",
-        "communityCase":"14",
-        "healed":"53",
-        "underTreatment":"1497",
-        "death":"0"
-    },
-    {
-        "date":"19/5/2020",
-        "nbrTest":"930",
-        "newCase":"73",
-        "contactCase":"68",
-        "importedCase":"0",
-        "communityCase":"5",
+        "communityCase":"10",
         "healed":"57",
-        "underTreatment":"1453",
-        "death":"4"
-    }   
+        "death":"0"
+    },
+    {
+        "date":"31/5/2020",
+        "nbrTest":"1024",
+        "newCase":"110",
+        "contactCase":"98",
+        "importedCase":"0",
+        "communityCase":"12",
+        "healed":"40",
+        "death":"0"
+    }
 ]

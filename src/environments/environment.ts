@@ -6,8 +6,8 @@ export const environment = {
   production: false,
 
   // A remplacer par l'address réele de l'api
-  apiUrl: 'http://localhost:8000/api',
-  baseUrl: 'http://localhost:8000'
+  //apiUrl: 'http://localhost:8000/api',
+  //baseUrl: 'http://localhost:8000'
 };
 
 /*

@@ -19,7 +19,7 @@ declare var gtag;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'xeex-corona-app';
+  title = 'xex-corona-app';
   faT = faTwitter;
   faF = faFacebook;
   faI = faInstagram;

@@ -3,6 +3,8 @@ export interface Imain {
     "Mhealed":number;
     "MunderTreatment":number;
     "Mdeath":number;
+    "MseriousCase":number;
+    "Mevacuated":number;
 }
 
 export interface Istats {
@@ -13,7 +15,6 @@ export interface Istats {
     "importedCase":number;
     "communityCase":number;
     "healed":number;
-    "underTreatment":number;
     "death":number;
 }
 
@@ -24,6 +25,5 @@ export interface Itotal {
     "TimportedCase":number;
     "TcommunityCase":number;
     "Thealed":number;
-    "TunderTreatment":number;
     "Tdeath":number;    
 }

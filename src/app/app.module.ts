@@ -13,6 +13,12 @@ import { MembreComponent } from './membre/membre.component';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { StatsService } from './stats.service';
+import { MapChartComponent } from './map-chart/map-chart.component';
+import { GoogleChartsModule } from 'angular-google-charts';
+import { Ng2GoogleChartsModule } from 'ng2-google-charts';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatProgressSpinner, MatProgressSpinnerModule } from "@angular/material/progress-spinner";
+
 
 @NgModule({
   imports: [
@@ -22,7 +28,11 @@ import { StatsService } from './stats.service';
     FontAwesomeModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    Ng2GoogleChartsModule,
+    GoogleChartsModule,
+    BrowserAnimationsModule,
+    MatProgressSpinnerModule
   ],
   declarations: [
     AppComponent,
@@ -31,7 +41,8 @@ import { StatsService } from './stats.service';
     TestposComponent,
     TestnegComponent,
     FaqComponent,
-    MembreComponent
+    MembreComponent,
+    MapChartComponent
   ],
   providers: [StatsService],
   bootstrap: [AppComponent]

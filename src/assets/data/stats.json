@@ -48,5 +48,25 @@
         "communityCase":"9",
         "healed":"111",
         "death":"0"
+    },
+    {
+        "date":"7/6/2020",
+        "nbrTest":"1266",
+        "newCase":"79",
+        "contactCase":"68",
+        "importedCase":"0",
+        "communityCase":"11",
+        "healed":"76",
+        "death":"2"
+    },
+    {
+        "date":"6/6/2020",
+        "nbrTest":"1166",
+        "newCase":"94",
+        "contactCase":"87",
+        "importedCase":"4",
+        "communityCase":"3",
+        "healed":"236",
+        "death":"2"
     }
 ]

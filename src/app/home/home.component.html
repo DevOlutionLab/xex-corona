@@ -61,7 +61,6 @@
     <div class="container">
         <div class="heading">
             <h2>Statistiques au Sénégal</h2>
-            <h4>Dernière mise à jour: 12 Mai à 11:00:00</h4>
         </div>
 
         <div class="row">
@@ -86,6 +85,7 @@
                     <h3>Sous traitement</h3>
                     <div *ngFor="let mn of main" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                         <h2 class="nbr" style="color: yellow;"> {{ mn.MunderTreatment }} </h2>
+                        <p class="nbr sd" style="color: rgb(241, 241, 106);"> {{ mn.MseriousCase }} cas graves </p>
                     </div>
                 </div>
             </div>
@@ -94,6 +94,7 @@
                     <h3>Décès</h3>
                     <div *ngFor="let mn of main" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                         <h2 class="nbr" style="color: crimson;"> {{ mn.Mdeath }} </h2>
+                        <p class="nbr sd" style="color: rgb(219, 114, 135);"> {{ mn.Mevacuated }} évacué </p>
                     </div>
                 </div>
             </div>
@@ -101,7 +102,7 @@
         <br>
         <div class="heading">
             <h2>Tableau journalier</h2>
-            <h4>Des 5 derniers jours</h4>
+            <h4>7 derniers jours</h4>
         </div><br>
         <div class="row">
             <div class="col-lg-12">
@@ -115,7 +116,6 @@
                                 <th class="warning" style="text-align: center;">Cas contact</th>
                                 <th class="info" style="text-align: center;">Cas importé</th>
                                 <th class="danger" style="text-align: center;">Cas communautaire</th>
-                                <th class="info" style="text-align: center;">Sous-traitment</th>
                                 <th class="success" style="text-align: center;">Guéris</th>
                                 <th class="danger" style="text-align: center;">Décès</th>
                             </tr>
@@ -128,7 +128,6 @@
                                 <td> {{ stat.contactCase }} </td>
                                 <td> {{ stat.importedCase }} </td>
                                 <td> {{ stat.communityCase }} </td>
-                                <td> {{ stat.underTreatment }} </td>
                                 <td> {{ stat.healed }} </td>
                                 <td> {{ stat.death }} </td>
                             </tr>
@@ -139,7 +138,6 @@
                                 <td> {{ tt.TcontactCase }} </td>
                                 <td> {{ tt.TimportedCase }} </td>
                                 <td> {{ tt.TcommunityCase }} </td>
-                                <td> {{ tt.TunderTreatment }} </td>
                                 <td> {{ tt.Thealed }} </td>
                                 <td> {{ tt.Tdeath }} </td>
                             </tr>
@@ -150,9 +148,9 @@
         </div>
         <br>
         <div class="heading">
-            <h2>Tableau journalier</h2>
-            <h4>Des 5 derniers jours</h4>
+            <h2>Cartographie des différentes zones touchées</h2>
         </div><br><br>
+        <br><br>
         <div class="row">
             <div class="col-sm col-lg col-xl col-md">
                 <div class="map-chart">
@@ -196,14 +194,14 @@
                 <div class="col-md-6" style="text-align: center;">
                     <div class="message-box">
                         <span class="icon-logo"><img src="../assets/images/reco/wash.png" alt="#"></span>
-                        <h4>Se laver fréquemment les mains</h4>
+                        <br><br><h4>Se laver fréquemment les mains</h4>
                         <p>Se laver fréquemment les mains avec une solution hydroalcoolique ou à l’eau et au savon pour tuer les germes se trouvant sur nos mains.</p>
                     </div>
                 </div>
                 <div class="col-md-6" style="text-align: center;">
                     <div class="message-box">
                         <span class="icon-logo"><img src="../assets/images/reco/social.png" alt="#"></span>
-                        <h4>Éviter les contacts proches</h4>
+                        <br><br><h4>Éviter les contacts proches</h4>
                         <p>Maintenir une distance d’au moins 1 mètre avec les autres personnes, en particulier si elles toussent, éternuent ou ont de la fièvre.</p>
                     </div>
                 </div>
@@ -212,28 +210,28 @@
                 <div class="col-md-6" style="text-align: center;">
                     <div class="message-box">
                         <span class="icon-logo"><img src="../assets/images/reco/face.png" alt="#"></span>
-                        <h4>Éviter de se toucher les yeux, le nez et la bouche.</h4>
+                        <br><br><h4>Éviter de se toucher les yeux, le nez et la bouche.</h4>
                         <p>Pourquoi? Les mains sont en contact avec de nombreuses surfaces qui peuvent être contaminées par le virus. Si vous vous touchez les yeux, le nez ou la bouche, vous risquez d’être en contact avec le virus présent sur ces surfaces.</p>
                     </div>
                 </div>
                 <div class="col-md-6" style="text-align: center;">
                     <div class="message-box">
                         <span class="icon-logo"><img src="../assets/images/reco/mask.png" alt="#"></span>
-                        <h4>Respecter les règles d’hygiène respiratoire</h4>
+                        <br><br><h4>Respecter les règles d’hygiène respiratoire</h4>
                         <p>Se couvrir la bouche et le nez avec le pli du coude ou avec un mouchoir en cas de toux ou d’éternuement puis jeter le mouchoir immédiatement après dans une poubelle fermée et se laver les mains.</p>
                     </div>
                 </div>
                 <div class="col-md-6" style="text-align: center;">
                     <div class="message-box">
                         <span class="icon-logo"><img src="../assets/images/reco/earth.png" alt="#"></span>
-                        <h4>Tenez-vous informé</h4>
+                        <br><br><h4>Tenez-vous informé</h4>
                         <p>Tenez-vous au courant des dernières évolutions concernant la COVID-19, pour tout savoir en temps réel et éviter les Fakenews.</p>
                     </div>
                 </div>
                 <div class="col-md-6" style="text-align: center;">
                     <div class="message-box">
                         <span class="icon-logo"><img src="../assets/images/reco/medical.png" alt="#"></span>
-                        <h4>Suivez les conseils de votre médecin</h4>
+                        <br><br><h4>Suivez les conseils de votre médecin</h4>
                         <p>Suivez les conseils de votre médecin, des autorités de santé nationales et locales ou de votre employeur pour savoir comment vous protéger.</p>
                     </div>
                 </div>

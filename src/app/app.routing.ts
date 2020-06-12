@@ -7,6 +7,7 @@ import { TestposComponent } from './testpos/testpos.component';
 import { TestnegComponent } from './testneg/testneg.component';
 import { FaqComponent } from './faq/faq.component';
 import { MembreComponent } from './membre/membre.component';
+import { MapChartComponent } from './map-chart/map-chart.component';
 
 const routes: Routes = [
     { path: 'ftaw', component: FontAwesomeModule },
@@ -18,7 +19,9 @@ const routes: Routes = [
     { path: 'testpos', component: TestposComponent },
     { path: 'testneg', component: TestnegComponent },
 
-    { path: '', redirectTo: '/home', pathMatch: 'full' }
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
+
+    {path: 'map', component: MapChartComponent}
 
 ];
 

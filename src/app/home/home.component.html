@@ -65,7 +65,6 @@
    <div class="container">
       <div class="heading">
             <h2>Statistiques au Sénégal</h2>
-            <h4>Dernière mise à jour: 11 Juin à 10:26</h4>
       </div>
     <div class="row">
        <div class="col-md-3 col-sm-6 col-xs-12">
@@ -89,6 +88,7 @@
              <h3 class="stat-title">Sous traitement</h3>
              <div *ngFor="let mn of main" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                 <h2 class="nbr" style="color: yellow;"> {{ mn.MunderTreatment }} </h2>
+                <p class="nbr sd" style="color: rgb(241, 241, 106);"> {{ mn.MseriousCase }} cas graves </p>
              </div>
           </div>
        </div>
@@ -97,6 +97,7 @@
              <h3 class="stat-title">Décès</h3>
                <div *ngFor="let mn of main" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                   <h2 class="nbr" style="color: crimson;"> {{ mn.Mdeath }} </h2>
+                  <p class="nbr sd" style="color: rgb(219, 114, 135);"> {{ mn.Mevacuated }} évacué </p>
                </div>
              </div>
          </div>

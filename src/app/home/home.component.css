@@ -3,3 +3,11 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.sd{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 18px;
+}

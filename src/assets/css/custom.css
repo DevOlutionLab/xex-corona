@@ -16,7 +16,7 @@
 :-ms-textarea-placeholder { /* IE 10+ */
   color: #333;opacity:1;
 }
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&display=swap');
 * {font-family: 'Jost', sans-serif;}
 h1,h2,h3,h4,h5,h6 {font-family: 'Jost', sans-serif;}
 p {

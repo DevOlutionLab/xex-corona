@@ -1,7 +1,32 @@
-.stat-title{
+h2{
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+h3{
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;    
+}
+h4{
+    font-family: 'Jost', sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
+.mt{
     border-radius: 15px;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: 'Jost', sans-serif;
+}
+
+.nbr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
 }
 
 .sd{

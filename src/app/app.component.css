@@ -1,0 +1,14 @@
+h2{
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+h3{
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;    
+}
+h4{
+    font-family: 'Jost', sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+}

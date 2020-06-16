@@ -4,7 +4,7 @@
 
 ## Preview
 
-This project is also deployed on **Heroku** and you can see it by clicking on this **[LINK](https://xex-corona.herokuapp.com/)**
+This project is also deployed on **Heroku** and you can see it by clicking on this **[LINK](https://xexcorona.com/)**
 
 ## Stack
 

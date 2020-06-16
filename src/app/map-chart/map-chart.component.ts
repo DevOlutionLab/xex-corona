@@ -87,8 +87,7 @@ isLoading = true;
                 chart.draw(data, options);
             }, 750);
           });
-      }    
-
+      }
   }
 
       ngAfterViewInit() {

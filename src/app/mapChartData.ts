@@ -1,5 +1,3 @@
-
-
 export interface MapChartData {
     'id': number;
     'code': string;

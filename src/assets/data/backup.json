@@ -1,5 +1,15 @@
 [
     {
+        "date":"20/6/2020",
+        "nbrTest":"1247",
+        "newCase":"144",
+        "contactCase":"123",
+        "importedCase":"1",
+        "communityCase":"20",
+        "healed":"71",
+        "death":"3"
+    },
+    {
         "date":"19/6/2020",
         "nbrTest":"1617",
         "newCase":"164",

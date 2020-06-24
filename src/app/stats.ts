@@ -17,13 +17,3 @@ export interface Istats {
     "healed":number;
     "death":number;
 }
-
-export interface Itotal {
-    "TnbrTest":number;
-    "TnewCase":number;
-    "TcontactCase":number;
-    "TimportedCase":number;
-    "TcommunityCase":number;
-    "Thealed":number;
-    "Tdeath":number;    
-}

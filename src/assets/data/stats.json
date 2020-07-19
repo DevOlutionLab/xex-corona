@@ -1,5 +1,15 @@
 [
     {
+        "date":"19/7/2020",
+        "nbrTest":"712",
+        "newCase":"141",
+        "contactCase":"96",
+        "importedCase":"0",
+        "communityCase":"45",
+        "healed":"89",
+        "death":"4"
+    },
+    {
         "date":"18/7/2020",
         "nbrTest":"790",
         "newCase":"125",
@@ -7,7 +17,7 @@
         "importedCase":"0",
         "communityCase":"49",
         "healed":"50",
-        "death":"0"
+        "death":"3"
     },
     {
         "date":"17/7/2020",
@@ -58,15 +68,5 @@
         "communityCase":"13",
         "healed":"68",
         "death":"2"
-    },
-    {
-        "date":"12/7/2020",
-        "nbrTest":"1108",
-        "newCase":"121",
-        "contactCase":"96",
-        "importedCase":"1",
-        "communityCase":"24",
-        "healed":"65",
-        "death":"3"
     }
 ]

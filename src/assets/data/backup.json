@@ -1,3 +1,12 @@
 [
-
+    {
+        "date":"1/9/2020",
+        "nbrTest":"944",
+        "newCase":"44",
+        "contactCase":"25",
+        "importedCase":"1",
+        "communityCase":"18",
+        "healed":"45",
+        "death":"0"
+    }
 ]

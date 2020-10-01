@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "date":"1/10/2020",
+        "nbrTest":"1351",
+        "newCase":"37",
+        "contactCase":"19",
+        "importedCase":"5",
+        "communityCase":"13",
+        "healed":"101",
+        "death":"0"
+    }
+]

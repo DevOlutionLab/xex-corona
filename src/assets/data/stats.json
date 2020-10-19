@@ -1,5 +1,25 @@
 [
     {
+        "date":"19/10/2020",
+        "nbrTest":"829",
+        "newCase":"14",
+        "contactCase":"3",
+        "importedCase":"7",
+        "communityCase":"4",
+        "healed":"51",
+        "death":"2"
+    },
+    {
+        "date":"18/10/2020",
+        "nbrTest":"1156",
+        "newCase":"26",
+        "contactCase":"7",
+        "importedCase":"3",
+        "communityCase":"16",
+        "healed":"58",
+        "death":"0"
+    },
+    {
         "date":"17/10/2020",
         "nbrTest":"982",
         "newCase":"24",
@@ -27,26 +47,6 @@
         "importedCase":"5",
         "communityCase":"7",
         "healed":"66",
-        "death":"0"
-    },
-    {
-        "date":"14/10/2020",
-        "nbrTest":"1293",
-        "newCase":"24",
-        "contactCase":"1",
-        "importedCase":"6",
-        "communityCase":"17",
-        "healed":"63",
-        "death":"1"
-    },
-    {
-        "date":"13/10/2020",
-        "nbrTest":"924",
-        "newCase":"15",
-        "contactCase":"2",
-        "importedCase":"6",
-        "communityCase":"7",
-        "healed":"118",
         "death":"0"
     }
 ]

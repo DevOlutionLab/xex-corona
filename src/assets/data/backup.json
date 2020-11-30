@@ -1,5 +1,25 @@
 [
     {
+        "date":"30/11/2020",
+        "nbrTest":"772",
+        "newCase":"14",
+        "contactCase":"5",
+        "importedCase":"0",
+        "communityCase":"9",
+        "healed":"10",
+        "death":"0"
+    },
+    {
+        "date":"29/11/2020",
+        "nbrTest":"1029",
+        "newCase":"48",
+        "contactCase":"22",
+        "importedCase":"0",
+        "communityCase":"26",
+        "healed":"15",
+        "death":"0"
+    },
+    {
         "date":"28/11/2020",
         "nbrTest":"1050",
         "newCase":"46",

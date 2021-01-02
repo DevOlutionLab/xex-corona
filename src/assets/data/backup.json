@@ -1,6 +1,16 @@
 [
     {
-        "date":"1/12/2020",
+        "date":"2/1/2021",
+        "nbrTest":"1439",
+        "newCase":"147",
+        "contactCase":"40",
+        "importedCase":"0",
+        "communityCase":"107",
+        "healed":"58",
+        "death":"6"
+    },
+    {
+        "date":"1/12/2021",
         "nbrTest":"1718",
         "newCase":"224",
         "contactCase":"88",

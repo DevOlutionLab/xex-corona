@@ -1,5 +1,5 @@
 {
-  "name": "xeex-corona-app",
+  "name": "xex-corona-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --output-path angularapp  --aot --prod"
+    "postinstall": "ngcc ng build --output-path angularapp  --aot --prod"
   },
   "engines": {
     "node": "v12.16.1",
@@ -44,6 +44,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.0",
     "@angular/language-service": "~11.0.3",
+    "@angular/localize": "^11.0.3",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",

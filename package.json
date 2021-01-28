@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ngcc ng build --output-path angularapp  --aot --prod"
+    "postinstall": "ngcc"
   },
   "engines": {
     "node": "v12.16.1",

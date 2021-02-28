@@ -77,6 +77,7 @@
                     <h3 class="mt">Guéris</h3>
                     <div *ngFor="let mn of main" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                         <h2 class="nbr" style="color: green;"> {{ mn.Mhealed }} </h2>
+                        <p class="sd" style="color: rgb(113, 190, 113);"> {{ mn.Mvaccinated }} vaccinés </p>
                     </div>
                 </div>
             </div>
@@ -84,7 +85,7 @@
                 <div class="service-widget">
                     <h3 class="mt">Sous traitement</h3>
                     <div *ngFor="let mn of main" class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                        <h2 class="nbr" style="color: rgb(255, 195, 82);"> {{ mn.MunderTreatment }} </h2>
+                        <h2 class="nbr" style="color: orangered;"> {{ mn.MunderTreatment }} </h2>
                         <p class="sd" style="color: rgb(255, 166, 0);"> {{ mn.MseriousCase }} cas graves </p>
                     </div>
                 </div>

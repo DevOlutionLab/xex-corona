@@ -5,6 +5,7 @@ export interface Imain {
     "Mdeath":number;
     "MseriousCase":number;
     "Mevacuated":number;
+    "Mvaccinated":number;
 }
 
 export interface Istats {

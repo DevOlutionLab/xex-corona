@@ -8,9 +8,8 @@ This project is also deployed on the web and you can see it by clicking on this 
 
 ## Stack
 
-![angular-9.1.0](https://img.shields.io/badge/Angular-9.1.0-red)
-![bootstrap-3.3.7](https://img.shields.io/badge/Bootstrap-3.3.7-blue)
-![jQuery-1.12.4](https://img.shields.io/badge/jQuery-1.12.4-yellowgreen)
+![Angular](https://img.shields.io/badge/Angular-11.1-red)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-3.3.7-blue)
 
 ### Installation
 

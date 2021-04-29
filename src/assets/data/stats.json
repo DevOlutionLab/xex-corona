@@ -1,102 +1,102 @@
 [
     {
-        "date":"19/3/2021",
-        "nbrTest":"1655",
-        "newCase":"113",
-        "contactCase":"44",
+        "date":"18/4/2021",
+        "nbrTest":"1536",
+        "newCase":"51",
+        "contactCase":"11",
         "importedCase":"0",
-        "communityCase":"69",
-        "healed":"288",
-        "death":"8"
+        "communityCase":"40",
+        "healed":"70",
+        "death":"1"
     },
     {
-        "date":"18/3/2021",
-        "nbrTest":"1889",
-        "newCase":"174",
-        "contactCase":"68",
+        "date":"17/4/2021",
+        "nbrTest":"1672",
+        "newCase":"67",
+        "contactCase":"28",
         "importedCase":"0",
-        "communityCase":"106",
-        "healed":"317",
-        "death":"5"
-    },
-    {
-        "date":"17/3/2021",
-        "nbrTest":"1892",
-        "newCase":"192",
-        "contactCase":"56",
-        "importedCase":"0",
-        "communityCase":"136",
-        "healed":"283",
-        "death":"9"
-    },
-    {
-        "date":"16/3/2021",
-        "nbrTest":"1116",
-        "newCase":"66",
-        "contactCase":"19",
-        "importedCase":"0",
-        "communityCase":"47",
-        "healed":"278",
+        "communityCase":"39",
+        "healed":"31",
         "death":"3"
     },
     {
-        "date":"15/3/2021",
-        "nbrTest":"1330",
-        "newCase":"104",
-        "contactCase":"35",
+        "date":"16/4/2021",
+        "nbrTest":"1575",
+        "newCase":"58",
+        "contactCase":"21",
         "importedCase":"0",
-        "communityCase":"69",
-        "healed":"243",
-        "death":"15"
+        "communityCase":"37",
+        "healed":"67",
+        "death":"2"
     },
     {
-        "date":"14/3/2021",
-        "nbrTest":"1817",
-        "newCase":"166",
-        "contactCase":"62",
+        "date":"15/4/2021",
+        "nbrTest":"1315",
+        "newCase":"46",
+        "contactCase":"15",
         "importedCase":"0",
-        "communityCase":"104",
-        "healed":"289",
-        "death":"9"
+        "communityCase":"31",
+        "healed":"53",
+        "death":"1"
     },
     {
-        "date":"13/3/2021",
-        "nbrTest":"1702",
-        "newCase":"157",
-        "contactCase":"64",
+        "date":"14/4/2021",
+        "nbrTest":"1511",
+        "newCase":"65",
+        "contactCase":"21",
         "importedCase":"0",
-        "communityCase":"93",
-        "healed":"256",
-        "death":"4"
+        "communityCase":"44",
+        "healed":"49",
+        "death":"3"
     },
     {
-        "date":"12/3/2021",
-        "nbrTest":"1935",
-        "newCase":"198",
-        "contactCase":"77",
+        "date":"13/4/2021",
+        "nbrTest":"999",
+        "newCase":"30",
+        "contactCase":"13",
         "importedCase":"0",
-        "communityCase":"121",
-        "healed":"302",
-        "death":"10"
+        "communityCase":"17",
+        "healed":"26",
+        "death":"2"
     },
     {
-        "date":"11/3/2021",
-        "nbrTest":"1948",
-        "newCase":"176",
-        "contactCase":"67",
+        "date":"12/4/2021",
+        "nbrTest":"1287",
+        "newCase":"34",
+        "contactCase":"11",
         "importedCase":"0",
-        "communityCase":"109",
-        "healed":"208",
-        "death":"6"
+        "communityCase":"23",
+        "healed":"41",
+        "death":"1"
     },
     {
-        "date":"10/3/2021",
-        "nbrTest":"1390",
-        "newCase":"156",
-        "contactCase":"63",
+        "date":"11/4/2021",
+        "nbrTest":"1810",
+        "newCase":"67",
+        "contactCase":"23",
         "importedCase":"0",
-        "communityCase":"93",
-        "healed":"283",
-        "death":"5"
+        "communityCase":"44",
+        "healed":"73",
+        "death":"1"
+    },
+    {
+        "date":"10/4/2021",
+        "nbrTest":"1515",
+        "newCase":"57",
+        "contactCase":"19",
+        "importedCase":"0",
+        "communityCase":"38",
+        "healed":"70",
+        "death":"3"
+    }, 
+    {
+        "date":"9/4/2021",
+        "nbrTest":"1441",
+        "newCase":"70",
+        "contactCase":"25",
+        "importedCase":"0",
+        "communityCase":"45",
+        "healed":"61",
+        "death":"1"
     }
 ]

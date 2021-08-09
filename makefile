@@ -1,5 +1,5 @@
-install:
+i :
 	npm install
 
-run:
+r :
 	ng serve

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "xeex-corona-app": {
+    "xex-corona": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,12 +13,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/xeex-corona-app",
+            "outputPath": "dist/xex-corona",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -27,7 +26,13 @@
               "src/custom-theme.scss",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "vendorChunk": true,
+            "extractLicenses": false,
+            "buildOptimizer": false,
+            "sourceMap": true,
+            "optimization": false,
+            "namedChunks": true
           },
           "configurations": {
             "production": {
@@ -57,23 +62,24 @@
                 }
               ]
             }
-          }
+          },
+          "defaultConfiguration": ""
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "xeex-corona-app:build"
+            "browserTarget": "xex-corona:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "xeex-corona-app:build:production"
+              "browserTarget": "xex-corona:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "xeex-corona-app:build"
+            "browserTarget": "xex-corona:build"
           }
         },
         "test": {
@@ -93,35 +99,22 @@
             "scripts": []
           }
         },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "tsconfig.app.json",
-              "tsconfig.spec.json",
-              "e2e/tsconfig.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
-        },
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "xeex-corona-app:serve"
+            "devServerTarget": "xex-corona:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "xeex-corona-app:serve:production"
+              "devServerTarget": "xex-corona:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "xeex-corona-app",
+  "defaultProject": "xex-corona",
   "cli": {
     "analytics": "129395c8-6830-40e3-9e56-12fa4b753623"
   }

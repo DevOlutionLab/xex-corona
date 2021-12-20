@@ -1,21 +1,22 @@
 # Xex Corona
 
-⚠ Web application for virus eradication (Covid19) in Senegal
+⚠ Web application for virus eradication (Covid19) in Senegal.
 
 ## Preview
 
-This project is also deployed on the web and you can see it by clicking on this **[LINK](https://xexcorona.com/)**
+This project is avaible **[HERE](https://xex-corona.vercel.app)**
 
 ## Stack
 
-![Angular](https://img.shields.io/badge/Angular-11.1-red)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-3.3.7-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ### Installation
 
 Run `npm install` to install all required dependencies.
 
-### Development server
+#### Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 

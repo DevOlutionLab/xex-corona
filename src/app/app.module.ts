@@ -19,7 +19,6 @@ import { Ng2GoogleChartsModule } from 'ng2-google-charts';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatProgressSpinner, MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 
-
 @NgModule({
   imports: [
     BrowserModule,

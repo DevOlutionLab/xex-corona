@@ -22,7 +22,6 @@ const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
 
     {path: 'map', component: MapChartComponent}
-
 ];
 
 export const appRoutingModule = RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' });

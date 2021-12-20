@@ -19,6 +19,9 @@ declare var gtag;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  currentY: number = new Date().getFullYear();
+
   title = 'xex-corona';
   faT = faTwitter;
   faF = faFacebook;

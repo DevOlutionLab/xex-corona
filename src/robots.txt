@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://xex-corona.vercel.app/sitemap.xml
+Sitemap: https://xexcorona.netlify.app/sitemap.xml

@@ -4,7 +4,7 @@
 
 ## Preview
 
-This project is avaible **[HERE](https://xex-corona.vercel.app)**
+This project is avaible **[HERE](https://xexcorona.netlify.app/)**
 
 ## Stack
 
